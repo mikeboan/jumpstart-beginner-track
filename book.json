@@ -1,7 +1,6 @@
 {
     "plugins": [
-        "expandable-chapters",
-        "video"
+        "expandable-chapters"
     ],
     "pluginsConfig": {}
 }
