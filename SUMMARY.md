@@ -1,8 +1,15 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
-  * [test1](chapter1.md)
-  * [test2](test2.md)
+* [Part 1 - Coding Basics](part1.md)
+  * [Terminal Readings](./terminal_readings.md)
+  * [Terminal Exercises](./terminal_exercises.md)
+  * [REPL Readings](./repl_readings.md)
+  * [REPL Exercises](./repl_exercises.md)
+  * [Scripts & Methods Readings](./scripts_and_methods_readings.md)
+  * [Scripts & Methods Exercises](./scripts_and_methods_exercises.md)
+  * [Return Value Readings](./return_readings.md)
+  * [Return Value Exercises](./return_exercises.md)
+  * [Variables & Scope Readings](./variables_and_scope_readings.md)
+  * [Variables & Scope Exercises](./variables_and_scope_exercises.md)
 * [Second Chapter](second_chapter.md)
-
