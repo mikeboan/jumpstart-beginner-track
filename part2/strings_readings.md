@@ -84,7 +84,7 @@ Note that you must use the following symbols: `#{..}` whatever ruby code is cont
 
 Watch the video!
 
-[![Slice](../video_link.png)](https://vimeo.com/181974255)
+{% video %}https://vimeo.com/181974255{% endvideo %}
 
 Argument   | `#slice` example       | `#[]` example    | Result
 -----------|------------------------|------------------|---------
