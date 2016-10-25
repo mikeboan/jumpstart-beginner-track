@@ -1,3 +1,7 @@
-# My Awesome Book
+# JumpStart - Beginner Track
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Welcome to JumpStart! Here are some inspirational messages from our team to help motivate you to be awesome:
+
+  * Ruby is rad
+  * Coding is cool
+  * Come to a/A :)
