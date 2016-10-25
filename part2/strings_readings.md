@@ -84,7 +84,8 @@ Note that you must use the following symbols: `#{..}` whatever ruby code is cont
 
 Watch the video!
 
-{% video %}https://vimeo.com/181974255{% endvideo %}
+<iframe src="https://player.vimeo.com/video/181974255" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 Argument   | `#slice` example       | `#[]` example    | Result
 -----------|------------------------|------------------|---------
