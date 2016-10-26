@@ -12,6 +12,7 @@
   * Scripts & Methods
     * [Readings](part1/scripts_and_methods_readings.md)
     * [Exercises](part1/scripts_and_methods_exercises.md)
+    * [Solutions](part1/scripts_and_methods_solutions.md)
   * Return Values
     * [Readings](part1/return_readings.md)
     * [Exercises](part1/return_exercises.md)
