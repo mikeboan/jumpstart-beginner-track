@@ -1,7 +1,6 @@
 {
     "plugins": [
-        "expandable-chapters",
-        "chatlog"
+        "expandable-chapters"
     ],
     "pluginsConfig": {}
 }
