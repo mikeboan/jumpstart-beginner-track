@@ -22,17 +22,21 @@
     * [Exercises](part1/variables_and_scope_exercises.md)
 
 * [Part 2 - Ruby Basics](part2/part2.md)
-  * [Numbers Readings](part2/numbers_readings.md)
-  * [Numbers Exercises](part2/numbers_exercises.md)
-  * [Strings Readings](part2/strings_readings.md)
-  * [Strings Exercises](part2/strings_exercises.md)
-  * [Type Conversion Readings](part2/type_conversion_readings.md)
-  * [Type Conversion Exercises](part2/type_conversion_exercises.md)
-  * [Boolean Logic Readings](part2/boolean_logic_readings.md)
-  * [Boolean Logic Exercises](part2/boolean_logic_exercises.md)
-  * [Conditionals Readings](part2/conditionals_readings.md)
-  * [Conditionals Exercises](part2/conditionals_exercises.md)
-  * [Loops Readings](part2/loops_readings.md)
-  * [Loops Exercises](part2/loops_exercises.md)
-
-  [](solutions/return_exercises_solutions.md)
+  * Numbers
+    * [Readings](part2/numbers_readings.md)
+    * [Exercises](part2/numbers_exercises.md)
+  * Strings
+    * [Readings](part2/strings_readings.md)
+    * [Exercises](part2/strings_exercises.md)
+  * Type Conversion
+    * [Readings](part2/type_conversion_readings.md)
+    * [Exercises](part2/type_conversion_exercises.md)
+  * Boolean Logic
+    * [Readings](part2/boolean_logic_readings.md)
+    * [Exercises](part2/boolean_logic_exercises.md)
+  * Conditionals
+    * [Readings](part2/conditionals_readings.md)
+    * [Exercises](part2/conditionals_exercises.md)
+  * Loops
+    * [Readings](part2/loops_readings.md)
+    * [Exercises](part2/loops_exercises.md)
