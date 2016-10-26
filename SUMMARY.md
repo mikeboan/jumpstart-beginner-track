@@ -3,16 +3,22 @@
 * [Introduction](README.md)
 
 * [Part 1 - Coding Basics](part1/part1.md)
-  * [Terminal Readings](part1/terminal_readings.md)
-  * [Terminal Exercises](part1/terminal_exercises.md)
-  * [REPL Readings](part1/repl_readings.md)
-  * [REPL Exercises](part1/repl_exercises.md)
-  * [Scripts & Methods Readings](part1/scripts_and_methods_readings.md)
-  * [Scripts & Methods Exercises](part1/scripts_and_methods_exercises.md)
-  * [Return Value Readings](part1/return_readings.md)
-  * [Return Value Exercises](part1/return_exercises.md)
-  * [Variables & Scope Readings](part1/variables_and_scope_readings.md)
-  * [Variables & Scope Exercises](part1/variables_and_scope_exercises.md)
+  * Terminal
+    * [Terminal Readings](part1/terminal_readings.md)
+    * [Terminal Exercises](part1/terminal_exercises.md)
+  * REPL
+    * [REPL Readings](part1/repl_readings.md)
+    * [REPL Exercises](part1/repl_exercises.md)
+  * Scripts & Methods
+    * [Readings](part1/scripts_and_methods_readings.md)
+    * [Exercises](part1/scripts_and_methods_exercises.md)
+  * Return Values
+    * [Readings](part1/return_readings.md)
+    * [Exercises](part1/return_exercises.md)
+    * [Solutions](part1/return_solutions.md)
+  * Variables & Scope
+    * [Readings](part1/variables_and_scope_readings.md)
+    * [Exercises](part1/variables_and_scope_exercises.md)
 
 * [Part 2 - Ruby Basics](part2/part2.md)
   * [Numbers Readings](part2/numbers_readings.md)
@@ -28,4 +34,4 @@
   * [Loops Readings](part2/loops_readings.md)
   * [Loops Exercises](part2/loops_exercises.md)
 
-* [solutions](solutions/return_exercises_solutions.md)
+  [](solutions/return_exercises_solutions.md)

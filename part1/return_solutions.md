@@ -1,4 +1,6 @@
+# Return Value Exercise Solutions
 
+```ruby
 # 2.
   def times_three_and_plus_five(n)
     return (n * 3) + 5
@@ -18,3 +20,5 @@
     end
     "odd"
   end
+
+```
