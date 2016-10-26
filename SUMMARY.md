@@ -27,3 +27,5 @@
   * [Conditionals Exercises](part2/conditionals_exercises.md)
   * [Loops Readings](part2/loops_readings.md)
   * [Loops Exercises](part2/loops_exercises.md)
+
+* [solutions](solutions/return_exercises_solutions.md)
