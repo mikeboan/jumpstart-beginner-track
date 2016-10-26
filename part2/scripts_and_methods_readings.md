@@ -4,7 +4,10 @@
 
 Let's start this section with a few definitions:
 
-* **script** --> A file that contains code. We run ruby scripts from the terminal by typing `ruby script_name.rb`.
+* **script** --> A file that contains code. We run ruby scripts from the terminal by typing:
+  ```
+    ruby script_name.rb
+  ```
 * **method** --> A function or set of commands that are bundled together. We can use scripts to define methods and execute them.
 
 You've already used several methods. `#capitalize` and even `+` (integer addition) are ruby methods! We haven't written any scripts yet. Let's change that!
