@@ -2,6 +2,15 @@
 
 * [Introduction](README.md)
 
+* Pre-Curriculum
+  * [Course Logistics](logistics.md)
+  * Configuration Docs
+    * [Cloud 9](configuration/c9_setup.md)
+    * [Rbenv](configuration/rbenv_setup.md)
+    * [Byebug](configuration/debugger_setup.md)
+
+### Curriculum
+
 * [Part 1 - The Terminal](part1/part1.md)
   * Terminal
     * [Terminal Readings](part1/terminal_readings.md)
@@ -48,3 +57,11 @@
   * [Readings](part5/arrays_readings.md)
   * [Exercises](part5/arrays_exercises.md)
   * [Solutions](part5/arrays_solutions.md)   
+
+### Problem Sets
+
+* [Problem Sets](problem_sets/README.md)
+
+### Practice Assessments
+
+* [Practice Assessments](practice_assessments/README.md)
