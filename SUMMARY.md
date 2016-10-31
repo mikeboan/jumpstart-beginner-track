@@ -11,13 +11,14 @@
 
 ### Curriculum
 
-* [Part 1 - The Terminal](part1/part1.md)
+* Part 1 - The Terminal
   * Terminal
     * [Terminal Readings](part1/terminal_readings.md)
     * [Terminal Exercises](part1/terminal_exercises.md)
   * REPL
     * [REPL Readings](part1/repl_readings.md)
     * [REPL Exercises](part1/repl_exercises.md)
+    
 * Part 2 - Scripts, Methods, & Variables
   * Scripts & Methods
     * [Readings](part2/scripts_and_methods_readings.md)
