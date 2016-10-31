@@ -35,23 +35,29 @@
   * Numbers
     * [Readings](part3/numbers_readings.md)
     * [Exercises](part3/numbers_exercises.md)
+    * [Solutions](part3/numbers_solutions.md)
   * Strings
     * [Readings](part3/strings_readings.md)
     * [Exercises](part3/strings_exercises.md)
+    * [Solutions](part3/strings_solutions.md)
   * Type Conversion
     * [Readings](part3/type_conversion_readings.md)
     * [Exercises](part3/type_conversion_exercises.md)
+    * [Solutions](part3/type_conversion_solutions.md)
 
 * Part 4 - Flow Control
   * Boolean Logic
     * [Readings](part4/boolean_logic_readings.md)
     * [Exercises](part4/boolean_logic_exercises.md)
+    * [Solutions](part4/boolean_logic_solutions.md)
   * Conditionals
     * [Readings](part4/conditionals_readings.md)
     * [Exercises](part4/conditionals_exercises.md)
+    * [Solutions](part4/conditionals_solutions.md)
   * Loops
     * [Readings](part4/loops_readings.md)
     * [Exercises](part4/loops_exercises.md)
+    * [Solutions](part4/loops_solutions.md)
 
 * Part 5 - Arrays
   * [Readings](part5/arrays_readings.md)

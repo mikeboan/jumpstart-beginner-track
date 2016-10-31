@@ -1,12 +1,15 @@
 # Using comments, write out an approach in pseudocode for each of these first.
 
+# *********************************************
+
 # Write a method that given an array, returns another array with each of the
 # numbers multiplied by two. Don't change the original array, make sure you
 # construct a copy!
+
 def array_times_two(array)
 end
 
-# Tests — these should all print true!
+# Tests -- get these to print "true"
 puts "\nArray times two:\n" + "*" * 15 + "\n"
 puts array_times_two([1, 2, 3]) == [2, 4, 6]
 puts array_times_two([0, -1, -2]) == [0, -2, -4]
@@ -18,10 +21,10 @@ puts dont_change_this == [3, 4, 5]
 
 # Write a method that given an array, now CHANGES each of the numbers to be
 # twice as big. This should mutate the original array!
+
 def array_times_two!(array)
 end
 
-# Tests
 puts "\nArray times two!:\n" + "*" * 15 + "\n"
 puts array_times_two!([1, 2, 3]) == [2, 4, 6]
 change_this = [6, 7, 8]
@@ -30,12 +33,24 @@ puts change_this == [12, 14, 16]
 
 # *********************************************
 
-# Write a method that given an array, returns another array of only the unique
-# elements. I.e., return a version without duplicates.
+# Write a function that takes in a number and sums all the numbers up to that number
+
+def sum_to(number)
+end
+
+puts "\nSum To:\n" + "*" * 15 + "\n"
+puts sum_to(5) == 15
+puts sum_to(3) == 6
+puts sum_to(1) == 1
+puts sum_to(0) == 0
+
+# *********************************************
+
+# Write a method that given an array, returns another array of only the unique elements.
+# I.e., return a version without duplicates. Do not use the Array#uniq method
 def uniq(array)
 end
 
-# Tests
 puts "\nUniq:\n" + "*" * 15 + "\n"
 puts uniq([5, 5, 5, 5]) == [5]
 puts uniq([1]) == [1]
@@ -58,24 +73,10 @@ def slippery_numbers(n)
 end
 
 
-# Tests
 puts "\nSlippery numbers:\n" + "*" * 15 + "\n"
 puts slippery_numbers(1) == [3]
 puts slippery_numbers(2) == [3, 5]
 puts slippery_numbers(7) == [3, 5, 6, 9, 10, 12, 18]
-
-# *********************************************
-
-# Write a method that finds whether any two elements in the array sum to 0.
-# If it does, return true. Otherwise, return false.
-def two_sum_to_zero?(array)
-end
-
-# Tests
-puts "\nTwo sum to zero?:\n" + "*" * 15 + "\n"
-puts two_sum_to_zero?([4, 2, 6]) == false
-puts two_sum_to_zero?([-2, 5, 12, -3, 2]) == true
-puts two_sum_to_zero?([0, 5]) == false
 
 # *********************************************
 
@@ -95,8 +96,23 @@ end
 def magic_numbers(n)
 end
 
-# Tests
 puts "\nMagic numbers:\n" + "*" * 15 + "\n"
 puts magic_numbers(1) == [7]
 puts magic_numbers(3) == [7, 16, 25]
 puts magic_numbers(20) == [7, 16, 25, 34, 43, 52, 61, 70, 106, 115, 124, 133, 142, 151, 160, 205, 214, 223, 232, 241]
+
+# *********************************************
+
+# Write a function that returns a phrase with each word (separated by spaces)
+# capitalized.
+
+def capitalize_each_word(phrase)
+end
+
+puts "\nCapitalize:\n" + "*" * 15 + "\n"
+puts capitalize_each_word("abc") == "Abc"
+puts capitalize_each_word("lets go dubs") == "Lets Go Dubs"
+puts capitalize_each_word("CODE IS LIFE") == "Code Is Life"
+dont_change_this = "do not mutate me"
+capitalize_each_word(dont_change_this)
+puts dont_change_this == "do not mutate me"

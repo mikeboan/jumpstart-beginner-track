@@ -19,6 +19,20 @@ end
 
 # *********************************************
 
+def sum_to(number)
+  sum = 0
+  current_num = 0
+
+  while current_num < number
+    sum += current_num
+    current_num += 1
+  end
+
+  sum
+end
+
+# *********************************************
+
 def uniq(array)
   uniq_array = []
   array.each do |element|
@@ -48,19 +62,6 @@ end
 
 # *********************************************
 
-def two_sum_to_zero?(array)
-  array.each_with_index do |element1, index1|
-    array.each_with_index do |element2, index2|
-      next if index1 == index2
-      return true if element1 + element2 == 0
-    end
-  end
-
-  false
-end
-
-# *********************************************
-
 def is_magic_number?(n)
   string_digits = n.to_s.chars
   sum = 0
@@ -82,4 +83,17 @@ def magic_numbers(n)
   end
 
   magic_numbers_array
+end
+
+# *********************************************
+
+def capitalize_each_word(phrase)
+  words = phrase.split
+  capitalized_words = []
+
+  words.each do |word|
+    capitalized_words << word.capitalize
+  end
+
+  capitalized_words.join(" ")
 end

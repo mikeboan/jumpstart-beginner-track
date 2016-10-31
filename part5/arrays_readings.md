@@ -34,7 +34,7 @@ Method    | Action
 
 Watch the video!
 
-[![Slice](../video_link.png)](https://vimeo.com/182440643)
+<iframe src="https://player.vimeo.com/video/182440643" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 **Test these in pry!**
 
@@ -59,7 +59,7 @@ You will likely find it useful to switch from using `puts` to using `p` to print
 
 The `#slice` method for arrays works similarly to the `#slice` method for strings. Let's recap:
 
-[![Slice](../video_link.png)](https://vimeo.com/182448670)
+<iframe src="https://player.vimeo.com/video/182448670" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ---
 ## Iterating over an array
@@ -111,7 +111,7 @@ In the next section, we'll learn about another method, `#each` that will allow u
 
   Watch the video!
 
-  [![Slice](../video_link.png)](https://vimeo.com/182464455)
+<iframe src="https://player.vimeo.com/video/182464455" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
   **Try using each with different code blocks in pry!**
 
