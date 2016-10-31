@@ -89,21 +89,6 @@ If your code has any errors they will also be printed to the terminal.
 ![ruby2](./assets/terminal/ruby2.png)
 
 ---
-## Additional Resources
-
-### explainshell.com
-
-Some terminal commands can be really complex. One resource that might be able to help you parse all this info is [explainshell](http://www.explainshell.com). This neat little website will break down a complicated terminal command into its various parts and give you a brief explanation of each bit.
-
-### Man Pages
-
-As we saw with `mkdir`, some terminal commands can take options that change how they function. If you want to see a list of a command's options as well as detailed instructions about its use you can look at the command's 'man page'. You can access a command's 'man page' by entering `man some_command` into the terminal. For example, to see the 'man page' for `ls` you would type `man ls`.
-
-![man-page](./assets/terminal/man-page.png)
-
-You can scroll around a 'man page' using the arrow keys and page up/down. To exit out of a 'man page' press `q`.
-
----
 ## Tips and Tricks
 ### ctrl-C
 
