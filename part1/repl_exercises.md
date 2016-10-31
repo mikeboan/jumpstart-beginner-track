@@ -12,13 +12,9 @@
 
 ![Capitalize Demo](./assets/repl/demo_capitalize.png)
 
-0. Type `Integer.instance_methods`, notice that this returns an `Array` of method names that are available for `Integers`. This output is *really* long. We could use the down arrow to scroll down to the bottom, but that would take forever...
+0. Type `Integer.instance_methods`, notice that this returns a *really long list* of method names. We could use the down arrow key to scroll down to the bottom, but that would take forever...
   * Press `Q` to truncate the list and get a new pry prompt
+  * Then, use `clear` (or `cmd + K`) to clear the output
 
 ![Long List Demo](./assets/repl/demo_list.png)
 ![Truncated List Demo](./assets/repl/demo_truncated_list.png)
-
-0. Re-run `Integer.instance_methods`
-  * Look through the list for methods you haven't seen before. Test them out!
-  * Again, use `Q` to truncate the output
-  * Repeat the process with `String.instance_methods`
