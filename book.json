@@ -1,6 +1,24 @@
 {
     "plugins": [
-        "expandable-chapters"
+        "expandable-chapters",
+        "quiz"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+      "quiz": {
+        "labels": {
+            "check"             : "Check",
+            "showExplanation"   : "Explain",
+            "showCorrect"       : "Show Answer",
+            "explanationHeader" : "Explanation"
+        },
+        "text": {
+            "noChosen"    : "Choose at least one answer",
+            "incomplete"  : "Some correct answers are missing"
+        },
+        "buttons": {
+            "showCorrect"       : false,
+            "showExplanation"   : true
+        }
+      }
+    }
 }

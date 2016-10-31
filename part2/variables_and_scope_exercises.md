@@ -1,4 +1,4 @@
-# Variables & Scope Exercises
+# Variables and Scope Exercises
 
 0. For the following script, draw the variables / pointers and how they interact with objects in memory. Refer to the video in the reading for help!
 
@@ -27,5 +27,3 @@
 
     puts b
   ```
-
-0. **Mandatory TA Checkpoint!** Call over a TA and show them your diagrams. Explain how the pointers change throughout your scripts.

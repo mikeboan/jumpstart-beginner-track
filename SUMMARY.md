@@ -18,18 +18,21 @@
   * REPL
     * [REPL Readings](part1/repl_readings.md)
     * [REPL Exercises](part1/repl_exercises.md)
-    
+
 * Part 2 - Scripts, Methods, & Variables
   * Scripts & Methods
     * [Readings](part2/scripts_and_methods_readings.md)
+    * [Quiz](part2/scripts_and_methods_quiz.md)
     * [Exercises](part2/scripts_and_methods_exercises.md)
     * [Solutions](part2/scripts_and_methods_solutions.md)
   * Return Values
     * [Readings](part2/return_readings.md)
+    * [Quiz](part2/return_quiz.md)
     * [Exercises](part2/return_exercises.md)
     * [Solutions](part2/return_solutions.md)
   * Variables & Scope
     * [Readings](part2/variables_and_scope_readings.md)
+    * [Quiz](part2/variables_and_scope_quiz.md)
     * [Exercises](part2/variables_and_scope_exercises.md)
 
 * Part 3 - Numbers & Strings

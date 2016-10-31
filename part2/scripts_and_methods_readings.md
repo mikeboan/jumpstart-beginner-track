@@ -67,9 +67,9 @@ Arguments are pieces of information that we pass to methods. Let's re-write our 
     puts "hello, " + name
   end
 
-  say_hello_to("Avi")
+  say_hello_to("Chen")
   say_hello_to("Rosalie")
-  say_hello_to("Ksenija")
+  say_hello_to("Ksenia")
 ```
 
 Let's run our new script.

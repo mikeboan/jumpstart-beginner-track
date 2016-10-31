@@ -1,4 +1,4 @@
-# Return Value Exercise Solutions
+# Return Value Solutions
 
 
 \#2. Write a method called `#times_three_and_plus_five` that accepts an integer, n, as an argument. Your method should multiply n by 3, and then add 5. For example, `times_three_and_plus_five(4)` should return 17. Do this using an **explicit return**.
