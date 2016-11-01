@@ -46,7 +46,7 @@ If we are interested in the remainder, we can use the modulo operator:
     puts 11 % 3 # will print 2, there is a remainder of 2 when 11 is divided by 3
   ```
 
-Again, **try this yourself in pry!**
+**Try this in pry!**
 
 To force a floating-point answer, we can make one of our operands a `Float`:
 
@@ -71,6 +71,8 @@ Long Expression | Shorthand
     a -= 2
     puts a # ==> 3
   ```
+
+**Try these in pry!**
 
 ---
 

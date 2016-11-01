@@ -16,6 +16,7 @@
 ```ruby
   def add_five(b)
     a = b + 5
+    return a
   end
 
   a = 10
@@ -26,7 +27,7 @@
 
 <quiz>
   <question>
-      <p>What will the value of a be at the end of the script?</p>
+      <p>What will the value of "a" be at the end of the script?</p>
       <answer>5</answer>
       <answer correct>10</answer>
       <answer>15</answer>
@@ -49,7 +50,7 @@
 
 <quiz>
   <question>
-      <p>What will the value of a be at the end of the script?</p>
+      <p>What will the value of "a" be at the end of the script?</p>
       <answer>5</answer>
       <answer>10</answer>
       <answer correct>15</answer>
@@ -72,7 +73,7 @@
 
 <quiz>
   <question>
-      <p>What will the value of b be at the end of the script?</p>
+      <p>What will the value of "b" be at the end of the script?</p>
       <answer>5</answer>
       <answer>10</answer>
       <answer>15</answer>

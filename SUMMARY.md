@@ -38,14 +38,17 @@
 * Part 3 - Numbers & Strings
   * Numbers
     * [Readings](part3/numbers_readings.md)
+    * [Quiz](part3/numbers_quiz.md)
     * [Exercises](part3/numbers_exercises.md)
     * [Solutions](part3/numbers_solutions.md)
   * Strings
     * [Readings](part3/strings_readings.md)
+    * [Quiz](part3/strings_quiz.md)
     * [Exercises](part3/strings_exercises.md)
     * [Solutions](part3/strings_solutions.md)
   * Type Conversion
     * [Readings](part3/type_conversion_readings.md)
+    * [Quiz](part3/type_conversion_quiz.md)
     * [Exercises](part3/type_conversion_exercises.md)
     * [Solutions](part3/type_conversion_solutions.md)
 
