@@ -9,11 +9,73 @@
       <answer correct>my_favorite_thing</answer>
       <answer>class</answer>
   </question>
+</quiz>
 
-  <!-- <question>
-    <p>What is the purpose of the hash symbol (#) in the following sentence: "#say_hello takes two arguments: a person's name, and a language!"</p>
-    <answer>It tells the reader we are using ruby</answer>
-    <answer>It tells the reader we using a script</answer>
-    <answer correct>It tells the reader that say_hello is a method</answer>
-  </question> -->
+---
+
+```ruby
+  def add_five(b)
+    a = b + 5
+  end
+
+  a = 10
+  add_five(a)
+
+  puts a
+```
+
+<quiz>
+  <question>
+      <p>What will the value of a be at the end of the script?</p>
+      <answer>5</answer>
+      <answer correct>10</answer>
+      <answer>15</answer>
+      <answer>nil</answer>
+  </question>
+</quiz>
+
+---
+
+```ruby
+  def add_five(b)
+    b + 5
+  end
+
+  a = 10
+  a = add_five(a)
+
+  puts a
+```
+
+<quiz>
+  <question>
+      <p>What will the value of a be at the end of the script?</p>
+      <answer>5</answer>
+      <answer>10</answer>
+      <answer correct>15</answer>
+      <answer>nil</answer>
+  </question>
+</quiz>
+
+---
+
+```ruby
+  def add_five(b)
+    b + 5
+  end
+
+  a = 10
+  a = add_five(a)
+
+  puts b
+```
+
+<quiz>
+  <question>
+      <p>What will the value of b be at the end of the script?</p>
+      <answer>5</answer>
+      <answer>10</answer>
+      <answer>15</answer>
+      <answer correct>nil</answer>
+  </question>
 </quiz>
