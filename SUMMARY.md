@@ -71,10 +71,10 @@
   * [Exercises](part5/arrays_exercises.md)
   * [Solutions](part5/arrays_solutions.md)   
 
-### Problem Sets
+<!-- ### Problem Sets
 
 * [Problem Sets](problem_sets/README.md)
 
 ### Practice Assessments
 
-* [Practice Assessments](practice_assessments/README.md)
+* [Practice Assessments](practice_assessments/README.md) -->
