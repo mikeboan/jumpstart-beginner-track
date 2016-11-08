@@ -37,7 +37,7 @@ To aid us in this challenge, we can use type conversion. Don't worry about solvi
 
 ---
 
-## `to_?`
+## `#to_?`
 
 All three objects: `Fixnums`, `Floats`, and `Strings` have methods that allow us to convert between the types.
 
@@ -48,7 +48,7 @@ For example, if I want to convert from a `String` to a `Fixnum`, I could use the
   puts int # ==> 5
 ```
 
-We can actually convert to/from any and all classes.
+We can actually convert to/from any and all of the aforementioned classes.
 
 ```ruby
   5.to_s      # ==> "5"

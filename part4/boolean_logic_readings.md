@@ -17,42 +17,42 @@ Finally, we'll discuss the concepts of **truthiness** and **falseness**.
 
 Booleans are `true` and `false`. That's it. They are their own objects, with their own methods! For example:
 
-  ```ruby
-    true.to_s # ==> "true"
-  ```
+```ruby
+true.to_s # ==> "true"
+```
 
 Boolean objects are the *return value* of comparator methods. One that we've already seen is the `==` method. Again, the *return value* of the `==` method is either `true` or `false`.
 
-  ```ruby
-    1 == "1"            # ==> false
-    "pizza" == "pizza"  # ==> true
-    false == false      # ==> true
-    true == "true"      # ==> false
-  ```
+```ruby
+1 == "1"            # ==> false
+"pizza" == "pizza"  # ==> true
+false == false      # ==> true
+true == "true"      # ==> false
+```
 
 **Test these in pry!**
 
 Since `==` is a *method* with a *return value* you can capture that return value in a variable and use it elsewhere.
 
 ```ruby
-  result = (1 == 1)
-  puts result # ==> true
+result = (1 == 1)
+puts result # ==> true
 ```
 
 ## `nil`
 
 `nil` is another object in ruby. It represents nothingness. `nil` also has it's own methods!
 
-  ```ruby
-    nil.to_i # ==> 0
-  ```
+```ruby
+nil.to_i # ==> 0
+```
 
 `nil` is often the return value of a method **if you ask for something that doesn't exist.** For example, *what is the 4th character in a 3-character string?*
 
 ```ruby
-  "abc"[3] # ==> nil
-  # remember, indices are 0-based, so "abc"[3] is
-  # asking for the 4th character
+"abc"[3] # ==> nil
+# remember, indices are 0-based, so "abc"[3] is
+# asking for the 4th character
 ```
 
 **Test this in pry!**
@@ -61,12 +61,12 @@ Since `==` is a *method* with a *return value* you can capture that return value
 
 Rubyists customarily name "boolean methods" with a question mark at the end. A "boolean method" is just a method whose return value is either `true` or `false`. Some examples of built-in boolean methods include:
 
-  ```ruby
-    5.even?                    # ==> false
-    5.odd?                     # ==> true
-    "abc".start_with?("ab")   # ==> true
-    "abc".is_a?(String)        # ==> true
-  ```
+```ruby
+5.even?                    # ==> false
+5.odd?                     # ==> true
+"abc".start_with?("ab")   # ==> true
+"abc".is_a?(String)        # ==> true
+```
 
 ---
 
@@ -84,9 +84,9 @@ Method| Example        | Result
 
 **Test these in pry!** Note: you can compare strings by alphabetical order using `<`, `>`, `<=`, or `>=`. Also note that any two objects can be compared using `==`, but only some objects can be compared using the `<`, `>`, `<=`, or `>=`. For example:
 
-  ```ruby
-    "string" >= 5
-  ```
+```ruby
+"string" >= 5
+```
 
 This comparison will throw an error. It doesn't make sense! How do you compare a string to an integer?
 
@@ -124,10 +124,10 @@ The **or** operator (`||`) evaluates to true if *one or both* of the boolean val
 
   The **not** operator (`!`) for boolean values works like a negative sign does for numbers. It returns the opposite of the value directly to its right:
 
-  ```ruby
-    puts !true    # ==> false
-    puts !false   # ==> true
-  ```
+```ruby
+puts !true    # ==> false
+puts !false   # ==> true
+```
 
 **Test these in pry!**
 
@@ -140,28 +140,28 @@ In ruby, we can say that all objects are *truthy* except for two:
 
 We can determine the truthiness of an object by using a "double-bang"
 
-  ```ruby
-    !!true      # ==> true
-    !!false     # ==> false
-    !!nil       # ==> false
-    !!"string"  # ==> true
-    !!5         # ==> true
-  ```
+```ruby
+!!true      # ==> true
+!!false     # ==> false
+!!nil       # ==> false
+!!"string"  # ==> true
+!!5         # ==> true
+```
 
 **Test these in pry!**
 
 The *truthiness* of an object will come into play when using logical operators as well:
 
-  ```ruby
-    true && nil   # ==> nil
-    true && "abc" # ==> 'abc'
-    5 && "abc"     # ==> 'abc'
+```ruby
+true && nil   # ==> nil
+true && "abc" # ==> 'abc'
+5 && "abc"     # ==> 'abc'
 
-    true || nil   # ==> true
-    nil || false  # ==> false
-    "abc" || nil  # ==> "abc"
-    5 || "abc"    # ==> 5
-  ```
+true || nil   # ==> true
+nil || false  # ==> false
+"abc" || nil  # ==> "abc"
+5 || "abc"    # ==> 5
+```
 
 **Try these in pry!**
 Note that the `&&` operator returns the **last** truthy value if both values are truthy, and the **first** falsey value if either element is falsey. The `||` operator will return *the first truthy value* if either value is true, or the first falsey value if both values are false.

@@ -1,20 +1,16 @@
 # String Quiz
 
 ```ruby
-  str = "string"
+str = "string"
 
-  puts str[-1] # .............. A
-  puts str[5] # ............... B
-  puts str[str.length - 1] # .. C
-  puts str[0..4] # ............ D
-
+puts str[-1] # .............. A
+puts str[5] # ............... B
+puts str[str.length - 1] # .. C
+puts str[0..4] # ............ D
 ```
 
 <quiz>
   <question multiple>
-      <code>
-        a = 5
-      </code>
       <p>Which of the above expressions will print "g"?</p>
       <answer correct>A</answer>
       <answer correct>B</answer>
@@ -23,16 +19,14 @@
   </question>
 </quiz>
 
----
 
 ```ruby
-  str = "string"
+str = "string"
 
-  puts str[2, 3] # ... A
-  puts str[2..3] # ... B
-  puts str[3, 4] # ... C
-  puts str[3..2] # ... D
-
+puts str[2, 3] # ... A
+puts str[2..3] # ... B
+puts str[3, 2] # ... C
+puts str[3..4] # ... D
 ```
 
 <quiz>
@@ -45,16 +39,14 @@
   </question>
 </quiz>
 
----
 
 ```ruby
-  name = "Sabine"
+name = "Sabine"
 
-  puts 'Hello ' + name + ', how are you today?' # ... A
-  puts "Hello " + name + ", how are you today?" # ... B
-  puts 'Hello #{name}, how are you today?' # ........ C
-  puts "Hello #{name}, how are you today?" # ........ D
-
+puts 'Hello ' + name + ', how are you today?' # ... A
+puts "Hello " + name + ", how are you today?" # ... B
+puts 'Hello #{name}, how are you today?' # ........ C
+puts "Hello #{name}, how are you today?" # ........ D
 ```
 
 <quiz>

@@ -8,7 +8,6 @@
   </question>
 </quiz>
 
----
 
 ```ruby
   def say_hello(name)
@@ -27,7 +26,6 @@
   </question>
 </quiz>
 
----
 
 ```ruby
   def do_math
@@ -37,8 +35,6 @@
     return c
     "Math complete!"
   end
-
-  x = say_hello("Avi")
 ```
 
 <quiz>
@@ -49,5 +45,3 @@
     <answer>nil</answer>
   </question>
 </quiz>
-
----

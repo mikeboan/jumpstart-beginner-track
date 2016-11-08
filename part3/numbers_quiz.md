@@ -13,7 +13,6 @@
   </question>
 </quiz>
 
----
 
 ```ruby
   8.1292.round(3)
@@ -28,7 +27,7 @@
   </question>
 </quiz>
 
----
+
 <quiz>
   <question>
       <p>In ruby, "100 / 3" is..</p>
@@ -38,7 +37,7 @@
   </question>
 </quiz>
 
----
+
 <quiz>
   <question>
       <p>In ruby, "100 % 3" is..</p>
@@ -48,7 +47,7 @@
   </question>
 </quiz>
 
----
+
 <quiz>
   <question>
       <p>In ruby, "100 / 3.0" is..</p>

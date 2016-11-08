@@ -11,7 +11,6 @@
   </question>
 </quiz>
 
----
 
 ```ruby
   def add_five(b)
@@ -35,7 +34,6 @@
   </question>
 </quiz>
 
----
 
 ```ruby
   def add_five(b)
@@ -58,7 +56,6 @@
   </question>
 </quiz>
 
----
 
 ```ruby
   def add_five(b)
