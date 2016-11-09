@@ -14,6 +14,16 @@
   </question>
 </quiz>
 
+<quiz>
+  <question multiple>
+    <p>Which of the following are array methods?</p>
+    <answer correct>#each</answer>
+    <answer>#each_element</answer>
+    <answer correct>#each_index</answer>
+    <answer correct>#each_with_index</answer>
+  </question>
+</quiz>
+
 ```ruby
 array = [1, 2, 3, 4, 5, 6]
 
@@ -46,12 +56,5 @@ array.each_index { |idx| puts array[idx]}
       <answer>A & D</answer>
       <answer correct>They all perform the same action</answer>
       <answer>They all do something different</answer>
-  </question>
-  <question multiple>
-    <p>Which of the following are array methods?</p>
-    <answer correct>#each</answer>
-    <answer>#each_element</answer>
-    <answer correct>#each_index</answer>
-    <answer correct>#each_with_index</answer>
   </question>
 </quiz>
