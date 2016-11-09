@@ -71,6 +71,7 @@
 
 * Part 5 - Arrays
   * [Readings](part5/arrays_readings.md)
+  * [Quiz](part5/arrays_quiz.md)
   * [Exercises](part5/arrays_exercises.md)
   * [Solutions](part5/arrays_solutions.md)   
 

@@ -29,6 +29,7 @@
       numbers.each do |number|
         return true if number % 3 == 0
       end
+      
       false
     end
   ```
@@ -40,11 +41,11 @@
       result = []
       even_num = 0
 
-      while result.length < n
+      until result.length == n
         result << even_num
         even_num += 2
       end
 
-      even_num
+      result
     end
   ```

@@ -13,15 +13,15 @@ Arrays are useful for maintaining *ordered* collections. They are one of the mos
 
 We use square brackets to create arrays:
 
-  ```ruby
-    array = []
-  ```
+```ruby
+array = []
+```
 
 We commonly refer to the contents of an array as the array's elements.
 
-  ```ruby
-    array = [1, 2, 3]
-  ```
+```ruby
+array = [1, 2, 3]
+```
 
 Here, we would say that the array has three elements. We can add/remove elements from arrays using 4 different methods:
 
@@ -42,11 +42,11 @@ Watch the video!
 
 Since `#push` is such a common method, ruby provides us a shorthand for using it: the *shovel operator*
 
-  ```ruby
-    array = []
-    array << 5
-    p array # ==> [5]
-  ```
+```ruby
+array = []
+array << 5
+p array # ==> [5]
+```
 
 You will rarely see the `#push` method written out; **use the shovel operator instead!**
 
@@ -68,9 +68,9 @@ One of the most common bits of code you will write is a `while` loop that iterat
 
 For starters, let's learn a new method called `#length`. This method returns the number of elements in an array:
 
-  ```ruby
-    [1, "b", 17].length # ==> 3
-  ```
+```ruby
+[1, "b", 17].length # ==> 3
+```
 
 Let's also remember that an array's indices range from 0 to array.length - 1. Using this knowledge we can setup a while loop to do something for every element in an array. Here are the steps:
 
@@ -80,15 +80,15 @@ Let's also remember that an array's indices range from 0 to array.length - 1. Us
     * Access each element by using `array[idx]``
     * Increment the idx by 1 each time: `idx += 1`
 
-  ```ruby
-    array = ["banana", "blueberry", "mango", "apple"]
-    idx = 0
+```ruby
+array = ["banana", "blueberry", "mango", "apple"]
+idx = 0
 
-    while idx < array.length
-      puts array[idx]
-      idx += 1
-    end
-  ```
+while idx < array.length
+  puts array[idx]
+  idx += 1
+end
+```
 
 In the next section, we'll learn about another method, `#each` that will allow us to do something similar. However, the `#each` method will not work for more complex problems. Make sure you know how to use the while loop with arrays!
 
@@ -97,13 +97,13 @@ In the next section, we'll learn about another method, `#each` that will allow u
 
   The `#each` method is a must-know method when working with collections. `#each` is a looping method, which allowing us to evaluate some *code block* for *each* element in the array. Let's see an example of this:
 
-  ```ruby
-    arr = [1, 2, 3, 4]
+```ruby
+arr = [1, 2, 3, 4]
 
-    arr.each do |el|
-      puts el
-    end
-  ```
+arr.each do |el|
+  puts el
+end
+```
 
 ### Code Blocks
 
@@ -120,11 +120,11 @@ In the next section, we'll learn about another method, `#each` that will allow u
 
   Arrays have to additional methods that allow us to iterate through the contents of the array. `#each_index` passes the index of each element to the code block, and `#each_with_index` passes *both* the element and the index to the code block.
 
-  ```ruby
-    [1, 2, 3].each { |el| ... }
-    [1, 2, 3].each_index { |idx| ... }
-    [1, 2, 3].each_with_index { |el, idx| ... }
-  ```
+```ruby
+[1, 2, 3].each { |el| ... }
+[1, 2, 3].each_index { |idx| ... }
+[1, 2, 3].each_with_index { |el, idx| ... }
+```
 
 ---
 
@@ -132,16 +132,16 @@ In the next section, we'll learn about another method, `#each` that will allow u
 
 Let's say we want to construct an array of words:
 
-  ```ruby
-    words = ["apple", "banana", "carrot", "zucchini"]
-  ```
+```ruby
+words = ["apple", "banana", "carrot", "zucchini"]
+```
 
 This can take forever if the list is long... Luckily we have the ability to construct arrays of words using "array literals":
 
-  ```ruby
-    words = %w(apply banana carrot zucchini)
-    p words  # ==> ["apple", "banana", "carrot", "zucchini"]
-  ```
+```ruby
+words = %w(apply banana carrot zucchini)
+p words  # ==> ["apple", "banana", "carrot", "zucchini"]
+```
 
 Much cleaner! **Note:** we don't need any quotes or commas! Words are separated by spaces!
 
@@ -160,14 +160,14 @@ Method        | Definition
 `#join`       | Joins all the elements into a string, separated by a delimiter (the argument)
 
 #### Examples
-  ```ruby
-    names = ["Anakin", "Luke", "Leia"]
-    names.length            #=> 3
-    names.first             #=> "Anakin"
-    names.last              #=> "Leia"
-    names.include?("Luke")  #=> true
-    names.join(", ")        # ==> "Anakin, Luke, Leia"
-  ```
+```ruby
+names = ["Anakin", "Luke", "Leia"]
+names.length            #=> 3
+names.first             #=> "Anakin"
+names.last              #=> "Leia"
+names.include?("Luke")  #=> true
+names.join(", ")        # ==> "Anakin, Luke, Leia"
+```
 
 ### More Useful Methods
 
@@ -179,10 +179,10 @@ Class    | Method      | Definition
 `String` | `#split`    | Converts a string into an array by splitting the array on a particular character
 
 #### Examples
-  ```ruby
-    sentence = "Wow, I heart ruby!"
-    sentence.split(" ")     # ==> ["Wow,", "I", "heart", "ruby!"]
-    sentence.chars          # ==> ["W", "o", "w", " ", "I", " ", "h", "e", "a", "r", "t", " ", "r", "u", "b", "y", "!"]
-  ```
+```ruby
+sentence = "Wow, I heart ruby!"
+sentence.split(" ")     # ==> ["Wow,", "I", "heart", "ruby!"]
+sentence.chars          # ==> ["W", "o", "w", " ", "I", " ", "h", "e", "a", "r", "t", " ", "r", "u", "b", "y", "!"]
+```
 
 **Test these in pry!**
