@@ -91,9 +91,9 @@ def sum_odds(n)
   sum = 0
 
   while i <= n
+    i += 1
     next if n.even?
     sum += n
-    i += 1
   end
 
   sum
